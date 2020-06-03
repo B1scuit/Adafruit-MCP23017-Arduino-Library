@@ -47,7 +47,6 @@ public:
   uint8_t getLastInterruptPin();
   uint8_t getLastInterruptPinValue();
 
- private:
   uint8_t i2caddr;
 
   uint8_t bitForPin(uint8_t pin);
